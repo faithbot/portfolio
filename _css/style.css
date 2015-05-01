@@ -364,18 +364,29 @@ textarea{
 	/* Icons */
 
 @font-face {
-	font-family: 'icomoon';
-	src:url('_fonts/icomoon.eot?uh48cb');
-	src:url('_fonts/icomoon.eot?#iefixuh48cb') format('embedded-opentype'),
-		url('_fonts/icomoon.woff?uh48cb') format('woff'),
-		url('_fonts/icomoon.ttf?uh48cb') format('truetype'),
-		url('_fonts/icomoon.svg?uh48cb#icomoon') format('svg');
-	font-weight: normal;
-	font-style: normal;
+	
+font-family: 'icomoon';
+	src:
+url('../_fonts/icomoon.eot?-1dqcdv');
+ src:
+url('../_fonts/icomoon.eot?#iefix-1dqcdv') format('embedded-opentype'),
+		
+url('../_fonts/icomoon.woff?-1dqcdv') format('woff'),
+		
+url('../_fonts/icomoon.ttf?-1dqcdv') format('truetype'),
+		
+url('../_fonts/icomoon.svg?-1dqcdv#icomoon') format('svg');
+	
+font-weight: normal;
+	
+font-style: normal;
 }
 
+
+
 [class^="icon-"], [class*=" icon-"] {
-	font-family: 'icomoon';
+	
+font-family: 'icomoon';
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
@@ -386,11 +397,32 @@ textarea{
 	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+}
 
+.icon-behance:before {
+	content: "\e600";
+}
+
+.icon-google-plus2:before {
+	content: "\ea89";
+}
+
+.icon-github:before {
+	content: "\eab1";
+}
+
+.icon-linkedin:before {
+	content: "\eac8";
+}
+
+.icon-stackoverflow:before {
+	content: "\eacf";
 }
 
 
-.icon-googleplus:before {
+
+
+/*.icon-googleplus:before {
 	
 content: "\e600";
 
@@ -416,7 +448,7 @@ content: "\e603";
 font-size: 150%;
 }
 
-
+*/
 
 
 	/* top image animation */

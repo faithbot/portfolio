@@ -416,7 +416,7 @@ body
  background-color: white;
  background-image: url("../_img/mediumdoll.jpg");
  background-repeat: no-repeat;
- background-position: top 59px center;
+ background-position: center 59px !important;
 }
 }
 
@@ -439,7 +439,7 @@ body
  background: white; /* corrects background size */
  background-image: url("../_img/techdoll2.jpg");
  background-repeat: no-repeat;
- background-position: top 59px 100px 100px 100px center;
+ background-position: center 59px !important;
 }
 }
 
@@ -541,70 +541,6 @@ height: auto;
  border-color: white;
 }}
 
-
-	/* content size management */
-@media screen and (max-width: 1200px) {
-
-.one {
- width: 100%;
- margin: 30px 0px 0px 0px;
- padding: 10px 0px 10px 0px;
-}
-
-.two {
- width: 100%;
- padding: 10px 0px 10px 0px;
-}
-
-.three {
- width: 100%;
- padding: 10px 0px 30px 0px;
-}}
-
-/* for when home navigation breaks to next line */
-@media screen and (max-width: 840px) {
-
-body 
-{
- background: white; /* makes background larger size */
- background-image: url("../_img/techdoll2.jpg");
- background-repeat: no-repeat;
- background-position: top center;
-}
-
-#homenav ul li a:link,
-#homenav ul li a:visited {
- font-size: 2em;
- width: 4em;
- margin: 0px;
- padding: 20px 55px 20px 55px;
-}
-
-#homenav ul li a:hover,
-#homenav ul li a:active {
- font-size: 2em;
- width: 4em;
- margin: 0;
- padding: 20px 55px 20px 55px;
-}
-
-
-#homenav {
- margin: 0 auto;
- position: relative;
-}
-
-#homenav ul {
- list-style: none;
- padding: 0; /* corrects centering */
- margin: 30px 0px 30px 0px;
-}
-
-#homenav ul li {
- display: block;
- margin: 10px 5px 5px 5px;
-}
-}
 
 
 

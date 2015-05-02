@@ -416,7 +416,7 @@ body
  background-color: white;
  background-image: url("../_img/mediumdoll.jpg");
  background-repeat: no-repeat;
- background-position: center 59px !important;
+ background-position: center 59px;
 }
 }
 
@@ -439,7 +439,7 @@ body
  background: white; /* corrects background size */
  background-image: url("../_img/techdoll2.jpg");
  background-repeat: no-repeat;
- background-position: center 59px !important;
+ background-position: center 59px;
 }
 }
 

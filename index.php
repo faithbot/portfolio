@@ -82,15 +82,15 @@
 					<p>Find me on:</p>
 					<p>
 						<a href="http://ca.linkedin.com/in/faithbot" title="View my LinkedIn profile" target="_blank">
-							<span class="icon-linkedin smallicon"></span> LinkedIn
+							<span class="icon-linkedin smallicon"></span>&nbsp;LinkedIn
 						</a>
 						&nbsp;|&nbsp;
 						<a href="https://github.com/faithbot" title="View my GitHub profile" target="_blank">
-							<span class="icon-github smallicon"></span> GitHub
+							<span class="icon-github smallicon"></span>&nbsp;GitHub
 						</a>
 						&nbsp;|&nbsp;
 						<a href="https://plus.google.com/u/3/105314686827747040927/about" title="View my Google &plus; profile" target="_blank">
-							<span class="icon-google-plus2 smallicon"></span> Google &plus;
+							<span class="icon-google-plus2 smallicon"></span>&nbsp;Google&nbsp;&plus;
 						</a>
 					</p>
 

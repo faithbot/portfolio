@@ -1,5 +1,6 @@
 /* 
 Table of contents:
+ Generic
  General
  General link styling
  Main containers
@@ -15,6 +16,12 @@ Order by:
  margin
  padding
 */
+
+	/* Generic */
+
+.bold {
+ font-weight: bold;
+}
 
 	/* General */
 
@@ -60,24 +67,14 @@ a:active {
 }
 
 
-	/* images */
-
-/* remove space between image */
-.portfolio {
- display: block;
- padding: 0;
- margin: 0 auto;
-}
-
-
 	/* main containers */
 
-.mainheader {
+header {
  text-align: center;
  width: 100%;
 }
 
-.mainheader img {
+header img {
  width: auto;
  overflow: auto;
  position: relative;
@@ -87,10 +84,11 @@ a:active {
  padding: 0;
 }
 
-.mainheader h1 {
+header h1 {
  font-size: 4.5em;
  font-weight: bold;
- padding-top: 30px;
+ margin: 0 auto;
+ width: 90%;
 }
 
 

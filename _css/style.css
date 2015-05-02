@@ -113,31 +113,12 @@ header h1 {
  margin: 0 auto -6em auto; /* the bottom margin is the negative value of the footer's height */
 }
 
-.one {
- float: left;
- width: 26%;
- padding: 2%;
- margin: 0px 0px 0px 5%;
-}
-
-.two {
- display: block;
- float:left;
- width: 26%;
- padding: 2%;
-}
-
-.three {
- float: left;
- width: 26%;
- padding: 2%;
- margin: 0px 5% 0px 0px;
-}
-
 #push {
  clear:both;
  height: 6em; /* same height as footer */
 }
+
+	/* footer */
 
 .mainfooter {
  border-style: solid; border-width: 46px 0px 0px; 
@@ -217,60 +198,6 @@ textarea{
 }
 
 
-
-	/* home navigation */
-
-#homenav {
- margin: 0 auto;
- position: relative;
- margin: 10px 10px 100px 0px;
-}
-
-#homenav ul {
- list-style: none;
-}
-
-#homenav ul li {
- display: inline-block;
- margin: 0;
- margin: 10px 10px 10px 0px;
-}
-
-#homenav ul li a {
-/* fade in link background */
- -webkit-transition: all 0.5s ease-in-out;
- -moz-transition: all 0.5s ease-in-out;
- -ms-transition: all 0.5s ease-in-out;
- -o-transition: all 0.5s ease-in-out;
- transition: all 0.5s ease-in-out;
-}
-
-#homenav ul li a:link,
-#homenav ul li a:visited {
- background-color: black;
- font-weight: bold;
- font-size: 2.5em;
- text-decoration: none;
- color: white;
- display:inline-block;
- width: 4em;
- padding: 20px 10px 20px 10px;
-}
-
-#homenav ul li a:hover,
-#homenav ul li a:active {
- background-color: transparent;
- font-weight: bold;
- font-size: 2.5em;
- text-decoration: none;
- color: maroon;
- display:inline-block;
- width: 4em;
- padding: 20px 10px 20px 10px;
-
-}
-
-
 	/* navigation */
 
 #navi {
@@ -291,7 +218,6 @@ textarea{
 
 #navi ul li {
  display: inline-block;
-
  position: relative;
  margin: 0px 5px 0px 5px;
 }
@@ -313,6 +239,7 @@ textarea{
 #navi ul li a:link,
 #navi ul li a:visited {
  background-color: black;
+ border-radius: 0px 0px 25px 25px;
  font-weight: bold;
  font-size: 2em;
  text-decoration: none;
@@ -325,6 +252,7 @@ textarea{
 #navi ul li a:hover,
 #navi ul li a:active {
  background-color: transparent;
+ border-radius: 0px;
  font-weight: bold;
  font-size: 2em;
  text-decoration: none;
@@ -389,7 +317,7 @@ line-height: 1;
 
 
 
-	/* top image animation */
+	/* image animation */
 
 .fadeIn {
  border:0;
@@ -412,7 +340,6 @@ line-height: 1;
  animation-duration:3s;
 }
  
-
 .fadeIn-Delay-1s {
  -webkit-animation-delay:0s;
  -moz-animation-delay:0s;
@@ -420,32 +347,21 @@ line-height: 1;
  animation-delay:0s;
 }
 
-
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @-o-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 
 
-/* edge animate */
-.edgeLoad-EDGE-14753708 { visibility:hidden; }
-
 
 	/* media queries */
-
-/* for when keyboard starts shrinking */
-@media screen and (max-width: 1647px) {
-
-.portfolio.mobilehide {
- display: none;
-}
 
 /* smaller background */
 @media screen and (max-width: 1250px) {
 body 
 {
  background-color: white;
- background-image: url("../_img/mediumdoll2.jpg");
+ background-image: url("../_img/mediumdoll.jpg");
  background-repeat: no-repeat;
  background-position: top 59px center;
 }

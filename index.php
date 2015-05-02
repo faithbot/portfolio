@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Clean, Modern Web Design | Faithbot</title>
+	<title>Original, Modern Web Design | Faithbot</title>
 	<meta charset="utf-8">
 	<meta name="description" content="Modern web design, web development, SEO and online marketing by Faith Schneider. Creator of websites optimized for searching, mobility, and beauty.">
 	<meta name="robots" content="index, follow">
@@ -40,7 +40,7 @@
 					<li><a href="index.html">Home</a></li>
 					<li><a href="#about">About</a></li>
 					<li><a href="#portfolio">Portfolio</a></li>
-					<li><a href="contact.php">Contact</a></li>
+					<li><a href="#contact.php">Contact</a></li>
 				</ul>
 			</nav><!--navi-->
 			<div class="fadeIn fadeIn-1s fadeIn-Delay-1s">
@@ -56,24 +56,43 @@
 			<div class="whitespace">
 				<article>
 					<h2 id="about">About Me</h2>
-					<p>Hello! My name is Faith Schneider, and I am a web developer, designer, and online marketer. I build with a focus on making effective, mobile-friendly and user-focused websites. I love websites that feature clean, simplistic and visually striking designs. I also have experience with search engine optimization, content writing, email campaigns, Google AdWords, and more!</p>
+					<p>Hello! My name is Faith Schneider, and I am a web developer, designer, and online marketer. I work with a focus on making effective, mobile-friendly and user-focused websites. My websites feature clean, simplistic and visually striking designs. I also have experience with search engine optimization, content writing, email campaigns, Google AdWords, and more. Due to my broad range of skills, I can create a full online marketing experience that goes beyond just a website's pages.</p>
 
 					<!-- 
 					<p>My sites are made with meticulous attention to detail. To see all the factors that go into creating a Faithbot website, click <a href="website-process.html">here</a>.
 					-->
 				</article><!--about-->
 
+				<hr>
+
 				<article>
-					<h2 id="portfolio">Portfolio</h2>
-					<a href="https://plus.google.com/u/3/photos/105314686827747040927/albums/6143025436426883745" title="View my Google &plus; portfolio" target="_blank">
-						<span class="icon-google-plus2"></span>
-					</a>
-					<p>My portfolio is hosted on Google &plus;. <a href="https://plus.google.com/u/3/photos/105314686827747040927/albums/6143025436426883745" title="View my portfolio on the Google &plus; platform" target="_blank">Click here to see my web and email design portfolio</a>.</p>
+					<h2 id="portfolio">
+						<a href="https://plus.google.com/u/3/photos/105314686827747040927/albums/6143025436426883745" title="View my Google &plus; portfolio" target="_blank">Portfolio
+							<span class="icon-google-plus2 largeicon"></span>
+						</a>
+					</h2>
+				
+					<p>My portfolio can be found on Google &plus;. <a href="https://plus.google.com/u/3/photos/105314686827747040927/albums/6143025436426883745" title="View my portfolio on the Google &plus; platform" target="_blank">Click here to see my web and email design portfolio</a>.</p>
 				</article><!--portfolio-->
 
-		
+				<hr>
+
 				<article>
 					<h2 id="contact">Contact</h2>
+					<p>Find me on:</p>
+					<p>
+						<a href="http://ca.linkedin.com/in/faithbot" title="View my LinkedIn profile" target="_blank">
+							<span class="icon-linkedin smallicon"></span> LinkedIn
+						</a>
+						&nbsp;|&nbsp;
+						<a href="https://github.com/faithbot" title="View my GitHub profile" target="_blank">
+							<span class="icon-github smallicon"></span> GitHub
+						</a>
+						&nbsp;|&nbsp;
+						<a href="https://plus.google.com/u/3/105314686827747040927/about" title="View my Google &plus; profile" target="_blank">
+							<span class="icon-google-plus2 smallicon"></span> Google &plus;
+						</a>
+					</p>
 
 					<!-- need to test contact form before uploading 
 					<fieldset><legend>Contact Faith Schneider</legend>
@@ -111,20 +130,20 @@
 	<footer class="mainfooter">
 		<br>
 		<a href="http://ca.linkedin.com/in/faithbot" title="View my LinkedIn profile" target="_blank">
-			<span class="icon-linkedin"></span>
+			<span class="icon-linkedin footicon"></span>
 		</a>
 
 		&nbsp;
 
 		<a href="https://github.com/faithbot" title="View my GitHub repositories" target="_blank">
-			<span class="icon-github"></span>
+			<span class="icon-github footicon"></span>
 		</a>
 
 		&nbsp;
 
 		<a href="https://plus.google.com/u/3/105314686827747040927/about" 
 		title="View my Google &plus; profile" target="_blank">
-			<span class="icon-google-plus2"></span>
+			<span class="icon-google-plus2 footicon"></span>
 		</a>
 	
 		<br><br>

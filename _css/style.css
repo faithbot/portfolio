@@ -23,6 +23,16 @@ Order by:
  font-weight: 900;
 }
 
+hr {
+ background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+ background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+ background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+ background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+ border: 0; 
+ height: 1px; 
+ margin: 20px 0px 10px 0px;
+}
+
 	/* General */
 
 * { 
@@ -52,6 +62,17 @@ img {
  padding: 0;
  margin: 0;
 }
+
+article {
+margin: 30px 0px 40px 0px;
+}
+
+ul.nobullet li {
+ list-style-type: none;
+ -webkit-padding-start: 0;
+ padding: 0 !important;
+}
+
 
 	/* general link styling */
 a:link,
@@ -99,10 +120,13 @@ header h1 {
  padding: 40px 3% 40px 3%;
 }
 
-.content {
- width: 60%;
- padding: 30px 0px 50px 0px;
- margin: 0px auto 40px auto;
+.whitespace h2 {
+ font-size: 3em;
+ display: inline-block;
+}
+
+.whitespace article p {
+ font-size: 130%;
 }
 
 #contentwrap {
@@ -318,25 +342,33 @@ line-height: 1;
 
 .icon-google-plus2:before {
  content: "\ea89";
- font-size: 200%;
 }
 
 .icon-github:before {
  content: "\eab1";
- font-size: 216%;
 }
 
 .icon-linkedin:before {
  content: "\eac8";
- font-size: 200%;
 }
 
 .icon-stackoverflow:before {
  content: "\eacf";
+}
+
+/* for large gplus icon */
+.largeicon {
+ font-size: 0.8em;
+}
+
+.footicon {
  font-size: 200%;
 }
 
-
+/* for small contact icons */
+.smallicon {
+ font-size: 90%;
+}
 
 	/* image animation */
 
@@ -393,24 +425,8 @@ and (max-width : 1000px) {
 /* remove margins */
 
 .whitespace {
- background-color: white;
- text-align: center;
- width: 100%;
- margin: 0 auto;
-}
-
-.content {
- width: 100%;
- padding: 0;
- margin: 0;
-}
-
-/* remove floats */
-.left {
- width: 100%;
-}
-.right {
- width: 100%;
+ width: 96%;
+ padding: 10px 2% 30px 2%;
 }
 }
 
@@ -423,7 +439,7 @@ body
  background: white; /* corrects background size */
  background-image: url("../_img/techdoll2.jpg");
  background-repeat: no-repeat;
- background-position: top 59px center;
+ background-position: top 59px 100px 100px 100px center;
 }
 }
 

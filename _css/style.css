@@ -55,10 +55,8 @@ a:visited {
 
 a:hover,
 a:active {
- background-color: black;
- border-radius: 5px;
- text-decoration: none;
- color: white;
+ text-decoration: underline;
+ color: black;
 }
 
 

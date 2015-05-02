@@ -37,10 +37,10 @@
 				<ul>
 					<li id="toggle"><a href="#navi">Menu</a></li>
 					<li id="hideMenu"><a href="#toggle">Menu</a></li>
-					<li><a href="index.php">Home</a></li>
-					<li><a href="index.php#about">About</a></li>
-					<li><a href="index.php#portfolio">Portfolio</a></li>
-					<li><a href="index.php#contact.php">Contact</a></li>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="contact.php">Contact</a></li>
 				</ul>
 			</nav><!--navi-->
 			<div class="fadeIn fadeIn-1s fadeIn-Delay-1s">
@@ -54,38 +54,48 @@
 		
 		<main>
 			<div class="whitespace">
+				<article>
+					<h2 id="about">About Me</h2>
+					<p>Hello! My name is Faith Schneider, and I am a web developer, designer, and online marketer. I build with a focus on making effective, mobile-friendly and user-focused websites. I love websites that feature clean, simplistic and visually striking designs. I also have experience with search engine optimization, content writing, email campaigns, Google AdWords, and more!</p>
 
+					<!-- 
+					<p>My sites are made with meticulous attention to detail. To see all the factors that go into creating a Faithbot website, click <a href="website-process.html">here</a>.
+					-->
+				</article><!--about-->
 
-<?php
-  require_once('recaptchalib.php');
-  $privatekey = "6Lczy_gSAAAAAJeEUAYClAhWdM5Wfa6T9DbCQBdX";
-  $resp = recaptcha_check_answer ($privatekey,
-                                $_SERVER["REMOTE_ADDR"],
-                                $_POST["recaptcha_challenge_field"],
-                                $_POST["recaptcha_response_field"]);
+				<article>
+					<h2 id="portfolio">Portfolio</h2>
+					<a href="https://plus.google.com/u/3/photos/105314686827747040927/albums/6143025436426883745" title="View my Google &plus; portfolio" target="_blank">
+						<span class="icon-google-plus2"></span>
+					</a>
+					<p>My portfolio is hosted on Google &plus;. <a href="https://plus.google.com/u/3/photos/105314686827747040927/albums/6143025436426883745" title="View my portfolio on the Google &plus; platform" target="_blank">Click here to see my web and email design portfolio</a>.</p>
+				</article><!--portfolio-->
 
-  if (!$resp->is_valid) {
-    // What happens when the CAPTCHA was entered incorrectly
-    die ("The reCAPTCHA wasn't entered correctly. Go back and try it again." .
-         "(reCAPTCHA said: " . $resp->error . ")");
-  } else {
-
-
-$hidden = $_POST['hidden']; 
-$name = $_POST['name']; 
-$email = $_POST['email']; 
-$message = $_POST['message']; 
-$date = gmdate("M d Y"); 
-print "<h1>Thank you for your message!</h1>; 
-$to = "niahcx@yahoo.com"; 
-$subject = "Message from website"; 
-$body = " Date: $date \n Form request: $hidden \n Name: $name \n E-mail address: $email \n Message: $message \n\n"; 
-mail($to,$subject,$body); 
-
-
-
-  }
-  ?>
+				<article>
+					<h2 id="contact">Contact</h2>
+					<fieldset><legend>Contact Faith Schneider</legend>
+						<form method="post" action="formreturn.php" onSubmit="MM_validateForm('name','','R','email','','RisEmail');return document.MM_returnValue">
+							<input type="hidden" name="hidden" id="hidden" value="message from website">
+							<br>
+							<label for="name">Name<br></label><input type="text" name="name" id="name">
+							<br>
+							<br>
+							<label for="email">Email<br></label><input type="email" name="email" id="email">
+							<br>
+							<br>
+							<label for="message">Message</label><br>
+							<textarea rows="5" cols="30" name="message" id="message"></textarea>
+							<br>
+							<br>
+							<div id="buttons">
+								<input type="submit" name="submit" id="submit" value="Send">
+								<input type="reset" name="reset" id="reset" value="Reset">
+							</div>
+							<br>
+							<p>Privacy policy: Your information will not be shared.</p>
+						</form>
+					</fieldset>
+				</article><!--contact-->
 
 			</div><!--whitespace-->
 		</main>

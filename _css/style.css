@@ -20,7 +20,7 @@ Order by:
 	/* Generic */
 
 .bold {
- font-weight: bold;
+ font-weight: 900;
 }
 
 	/* General */
@@ -77,31 +77,30 @@ header {
 header img {
  width: auto;
  overflow: auto;
- position: relative;
- top: 0;
- left: 0;
  margin: 0 auto;
  padding: 0;
 }
 
 header h1 {
- font-size: 4.5em;
- font-weight: bold;
- margin: 0 auto;
+ font-size: 4.9em;
+ font-weight: 500;
+ line-height: 0.9;
+ margin: -10px auto 0px auto;
+ padding: 0;
  width: 90%;
 }
-
 
 .whitespace {
  background-color: rgba(255, 255, 255, 0.5);
  border-radius: 40px;
  text-align: center;
- width: 77%;
+ width: 70%;
  margin: 0 auto;
+ padding: 40px 20px 40px 20px;
 }
 
-.whitespace h1 {
- padding-top: 30px;
+.whitespace {
+
 }
 
 .content {
@@ -126,7 +125,7 @@ header h1 {
  position: relative;
  min-height: 100%;
  width: 100%;
- margin: 0 auto -6em; /* the bottom margin is the negative value of the footer's height */
+ margin: 0 auto -6em auto; /* the bottom margin is the negative value of the footer's height */
 }
 
 .maincontent { 
@@ -429,18 +428,18 @@ line-height: 1;
 }
 
 .fadeIn-1s {
- -webkit-animation-duration:5s;
- -moz-animation-duration:5s;
- -o-animation-duration:5s;
- animation-duration:5s;
+ -webkit-animation-duration:3s;
+ -moz-animation-duration:3s;
+ -o-animation-duration:3s;
+ animation-duration:3s;
 }
  
 
 .fadeIn-Delay-1s {
- -webkit-animation-delay:1s;
- -moz-animation-delay:1s;
- -o-animation-delay:1s;
- animation-delay:1s;
+ -webkit-animation-delay:0s;
+ -moz-animation-delay:0s;
+ -o-animation-delay:0s;
+ animation-delay:0s;
 }
 
 

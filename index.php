@@ -71,9 +71,11 @@
 					<p>My portfolio is hosted on Google &plus;. <a href="https://plus.google.com/u/3/photos/105314686827747040927/albums/6143025436426883745" title="View my portfolio on the Google &plus; platform" target="_blank">Click here to see my web and email design portfolio</a>.</p>
 				</article><!--portfolio-->
 
-				<!-- need to test contact form before uploading 
+		
 				<article>
 					<h2 id="contact">Contact</h2>
+
+					<!-- need to test contact form before uploading 
 					<fieldset><legend>Contact Faith Schneider</legend>
 						<form method="post" action="formreturn.php" onSubmit="MM_validateForm('name','','R','email','','RisEmail');return document.MM_returnValue">
 							<input type="hidden" name="hidden" id="hidden" value="message from website">
@@ -95,9 +97,9 @@
 							<br>
 							<p>Privacy policy: Your information will not be shared.</p>
 						</form>
-					</fieldset>
-				</article> 
-				-->
+					</fieldset>-->
+				</article><!--contact-->
+	
 
 			</div><!--whitespace-->
 		</main>

@@ -56,7 +56,7 @@
 			<div class="whitespace">
 				<article>
 					<h2 id="about">About Me</h2>
-					<p>Hello! My name is Faith Schneider, and I am a web developer, designer, and online marketer. I work with a focus on making effective, mobile-friendly and user-focused websites. My websites feature clean, simplistic and visually striking designs. I also have experience with search engine optimization, content writing, email campaigns, Google AdWords, and more. Due to my broad range of skills, I can create a full online marketing experience that goes beyond just a website's pages.</p>
+					<p>Hello! My name is Faith Schneider, and I am a web developer, designer, and online marketer. I work with a focus on making effective, mobile-friendly and user-focused websites with clean, simplistic and visually striking designs. I also have experience with search engine optimization, content writing, email campaigns, Google AdWords, and more. Due to my broad range of skills, I can create a full online marketing experience that goes beyond just a website's pages.</p>
 
 					<!-- 
 					<p>My sites are made with meticulous attention to detail. To see all the factors that go into creating a Faithbot website, click <a href="website-process.html">here</a>.

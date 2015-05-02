@@ -67,12 +67,6 @@ article {
 margin: 30px 0px 40px 0px;
 }
 
-ul.nobullet li {
- list-style-type: none;
- -webkit-padding-start: 0;
- padding: 0 !important;
-}
-
 
 	/* general link styling */
 a:link,
@@ -98,7 +92,7 @@ header {
 header img {
  width: auto;
  overflow: auto;
- margin: 0 auto;
+ margin: 10px auto 20px auto;
  padding: 0;
 }
 
@@ -106,7 +100,7 @@ header h1 {
  font-size: 4.9em;
  font-weight: 500;
  line-height: 0.9;
- margin: -10px auto 0px auto;
+ margin: 0px auto 0px auto;
  padding: 0;
  width: 90%;
 }
@@ -374,7 +368,6 @@ line-height: 1;
 
 .fadeIn {
  border:0;
- margin:15px;
  opacity:0;
  -webkit-animation:fadeIn ease-in 1;
  -moz-animation:fadeIn ease-in 1;
@@ -440,6 +433,11 @@ body
  background-image: url("../_img/techdoll2.jpg");
  background-repeat: no-repeat;
  background-position: center 59px;
+}
+
+header h1 {
+ font-size: 4em;
+ margin-top: 0px;
 }
 }
 
@@ -540,6 +538,14 @@ height: auto;
 #hideMenu>a::after, #hideMenu>a::before {
  border-color: white;
 }}
+
+/* adjust h1 size for very small screens */
+@media screen and (max-width: 565px) {
+
+header h1 {
+font-size: 3em;
+}
+}
 
 
 

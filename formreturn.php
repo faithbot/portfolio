@@ -57,26 +57,13 @@
 
 
 <?php
-  require_once('recaptchalib.php');
-  $privatekey = "6Lczy_gSAAAAAJeEUAYClAhWdM5Wfa6T9DbCQBdX";
-  $resp = recaptcha_check_answer ($privatekey,
-                                $_SERVER["REMOTE_ADDR"],
-                                $_POST["recaptcha_challenge_field"],
-                                $_POST["recaptcha_response_field"]);
-
-  if (!$resp->is_valid) {
-    // What happens when the CAPTCHA was entered incorrectly
-    die ("The reCAPTCHA wasn't entered correctly. Go back and try it again." .
-         "(reCAPTCHA said: " . $resp->error . ")");
-  } else {
-
 
 $hidden = $_POST['hidden']; 
 $name = $_POST['name']; 
 $email = $_POST['email']; 
 $message = $_POST['message']; 
 $date = gmdate("M d Y"); 
-print "<h1>Thank you for your message!</h1>; 
+print "<h1>Thank you for your message!</h1>"; 
 $to = "niahcx@yahoo.com"; 
 $subject = "Message from website"; 
 $body = " Date: $date \n Form request: $hidden \n Name: $name \n E-mail address: $email \n Message: $message \n\n"; 
@@ -86,6 +73,7 @@ mail($to,$subject,$body);
 
   }
   ?>
+<a href="index.html">Return home</a>
 
 			</div><!--whitespace-->
 		</main>

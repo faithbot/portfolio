@@ -70,11 +70,9 @@ $body = " Date: $date \n Form request: $hidden \n Name: $name \n E-mail address:
 mail($to,$subject,$body); 
 
 
-
-  }
   ?>
-<a href="index.html">Return home</a>
-
+			
+			<a href="index.html">Return home</a>
 			</div><!--whitespace-->
 		</main>
 

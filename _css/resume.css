@@ -1,0 +1,227 @@
+	/* Generic */
+
+.bold {
+ font-weight: 900;
+}
+
+hr {
+ color: maroon;
+}
+
+	/* General */
+
+* { 
+ font-family:'Raleway', Helvetica, Ariel, sans-serif;
+ margin: 0;
+}
+
+html, body {
+ height: 100%;
+}
+
+body {
+
+}
+
+img {  
+ height: auto;  
+ max-width: 100%; 
+ border: 0; 
+ padding: 0;
+ margin: 0;
+}
+
+article {
+margin: 30px 0px 40px 0px;
+}
+
+
+	/* general link styling */
+a:link,
+a:visited {
+ text-decoration: none;
+ color: maroon;
+}
+
+a:hover,
+a:active {
+ text-decoration: underline;
+ color: black;
+}
+
+
+	/* main containers */
+
+
+
+h1 {
+ font-size: 4.9em;
+ font-weight: 500;
+ line-height: 0.9;
+ margin: 0px auto 0px auto;
+ padding: 0;
+ width: 90%;
+}
+
+h2 {
+ font-size: 3em;
+ display: inline-block;
+}
+
+article p {
+ font-size: 130%;
+}
+
+#contentwrap {
+ height: auto !important;
+ position: relative;
+ min-height: 100%;
+ width: 100%;
+ margin: 0 auto -6em auto; /* the bottom margin is the negative value of the footer's height */
+}
+
+#push {
+ clear:both;
+ height: 6em; /* same height as footer */
+}
+
+	/* footer */
+
+.mainfooter {
+ border-style: solid; 
+ border-width: 46px 0px 0px; 
+ -moz-border-image: url("../_img/blacklace.png") 46 1 0 0 repeat; 
+ -webkit-border-image: url("../_img/blacklace.png") 46 1 0 0 repeat; 
+ -o-border-image: url("../_img/blacklace.png") 46 1 0 0 repeat; 
+ border-image: url("../_img/blacklace.png") 46 1 0 0 fill repeat;
+ background-clip: padding-box;
+ background-color: black;
+ text-align: center;
+ color: #ffffff;
+/* height: 6em; */
+ height: auto !important;
+ position: relative;
+ left:0;
+ bottom:0;
+ width: 100%;
+}
+
+.mainfooter a:link,
+.mainfooter a:visited {
+ text-decoration: none;
+ color: pink;
+}
+
+.mainfooter a:hover,
+.mainfooter a:active {
+ text-decoration: none;
+ color: white;
+}
+
+
+
+	/* Icons */
+
+@font-face {
+	
+font-family: 'icomoon';
+	src:
+url('../_fonts/icomoon.eot?-1dqcdv'); src:
+url('../_fonts/icomoon.eot?#iefix-1dqcdv') format('embedded-opentype'),	
+url('../_fonts/icomoon.woff?-1dqcdv') format('woff'),	
+url('../_fonts/icomoon.ttf?-1dqcdv') format('truetype'),	
+url('../_fonts/icomoon.svg?-1dqcdv#icomoon') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
+
+
+[class^="icon-"], [class*=" icon-"] {
+	
+font-family: 'icomoon';
+speak: none;
+font-style: normal;
+font-weight: normal;
+font-variant: normal;
+text-transform: none;
+line-height: 1;
+
+/* Better Font Rendering =========== */
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-google-plus2:before {
+ content: "\ea89";
+}
+
+.icon-github:before {
+ content: "\eab1";
+}
+
+.icon-linkedin:before {
+ content: "\eac8";
+}
+
+.icon-stackoverflow:before {
+ content: "\eacf";
+}
+
+/* for large gplus icon */
+.largeicon {
+ font-size: 0.8em;
+}
+
+.footicon {
+ font-size: 200%;
+}
+
+/* for small contact icons */
+.smallicon {
+ font-size: 90%;
+}
+
+
+
+	/* media queries */
+
+@media screen and (max-width: 1250px) {
+
+}
+
+@media only screen 
+and (max-width : 1000px) {
+
+}
+
+
+/* narrow, tall background */
+@media screen and (max-width: 700px) {
+
+}
+
+
+
+/* mobile navigation */
+@media screen and (max-width: 935px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

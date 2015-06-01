@@ -95,10 +95,15 @@ h3 {
 }
 
 h4 {
-  margin: 20px auto 0px auto;
+ margin: 20px auto 0px auto;
 }
 
-article p {
+p.date {
+ font-size: 0.9em;
+ font-style: italic;
+}
+
+section p {
  font-size: 130%;
 }
 
@@ -186,18 +191,14 @@ line-height: 1;
  content: "\eacf";
 }
 
-/* for large gplus icon */
-.largeicon {
- font-size: 0.8em;
-}
-
 .footicon {
  font-size: 200%;
 }
 
-/* for small contact icons */
-.smallicon {
- font-size: 90%;
+.icon {
+ line-height: 1.4em;
+ margin: 100px 0px 0px 0px;
+ font-size: 150%;
 }
 
 

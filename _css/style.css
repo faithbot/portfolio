@@ -100,7 +100,7 @@ header h1 {
  font-size: 4.9em;
  font-weight: 500;
  line-height: 0.9;
- margin: 0px auto 0px auto;
+ margin: 20px auto 0px auto;
  padding: 0;
  width: 90%;
 }
@@ -409,7 +409,7 @@ body
  background-color: white;
  background-image: url("../_img/mediumdoll.jpg");
  background-repeat: no-repeat;
- background-position: center 59px;
+ background-position: center 57px;
 }
 }
 

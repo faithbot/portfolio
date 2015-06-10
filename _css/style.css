@@ -437,14 +437,13 @@ body
 
 header h1 {
  font-size: 4em;
- margin-top: 0px;
+ padding-top: 15px;
 }
 }
-
 
 
 /* mobile navigation */
-@media screen and (max-width: 935px) {
+@media only screen and (max-width: 750px) {
 
 #navi {
 width: 100%;
@@ -469,6 +468,7 @@ height: auto;
 
 #navi ul li a:link,
 #navi ul li a:visited {
+ border-radius: 0px;
  width: 100%;
  margin: 0;
  padding: 10px 5px 10px 5px;
@@ -514,8 +514,8 @@ height: auto;
  position: absolute;
  content: "";
  right: 20px;
- top: 16px;
- height: 3px;
+ top: 18px;
+ height: 15px;
  width: 20px;
  border-top: 2px solid white;
  border-bottom: 2px solid white;
@@ -528,8 +528,8 @@ height: auto;
  position: absolute;
  content: "";
  right: 20px;
- top: 23px;
- height: 3px;
+ top: 11px;
+ height: 15px;
  width: 20px;
  border-bottom: 2px solid white;
  z-index: 1;
@@ -537,7 +537,8 @@ height: auto;
 
 #hideMenu>a::after, #hideMenu>a::before {
  border-color: white;
-}}
+}
+}
 
 /* adjust h1 size for very small screens */
 @media screen and (max-width: 565px) {

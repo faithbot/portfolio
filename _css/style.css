@@ -45,7 +45,7 @@ html, body {
 }
 
 body {
- background-color: #e6e6e6;
+ background-color: white;
 }
 
 img {  
@@ -89,13 +89,17 @@ header img {
 }
 
 header h1 {
- color: #383838;
+ color: #878787;
  font-size: 4.9em;
  font-weight: 300;
  line-height: 0.9;
  margin: 35px auto 0px auto;
- padding: 0;
+ padding: 15px 0px 15px 0px;
  width: 90%;
+}
+
+header h1 strong {
+ color: #61b3ff;
 }
 
 .content {
@@ -177,7 +181,7 @@ h2 {
 }
 
 #navi ul {
- background-color: white;
+ background-color: #404040;
  margin: 0 auto;
  padding: 0;
 }
@@ -186,6 +190,7 @@ h2 {
  display: inline-block;
  position: relative;
  margin: 0px;
+ padding: 0px;
 }
 
 /* hide mobile menu */
@@ -204,22 +209,20 @@ h2 {
 
 #navi ul li a:link,
 #navi ul li a:visited {
- background-color: #1e1e1e;
- font-weight: 400;
+ font-weight: 300;
  font-size: 2em;
  text-decoration: none;
  color: white;
  display:inline-block;
  width: 4.2em;
- padding: 0px 20px 10px 20px;
+ padding: 8px 20px 15px 20px;
 }
 
 #navi ul li a:hover,
 #navi ul li a:active {
- background-color: white;
  font-size: 2em;
  text-decoration: none;
- color: maroon;
+ color: #8FFFD8;
  display:inline-block;
  width: 4em;
  padding: 0px 20px 10px 20px;

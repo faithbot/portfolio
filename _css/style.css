@@ -45,7 +45,7 @@ html, body {
 }
 
 body {
- background-color: white;
+ background-color: #white;
 }
 
 img {  
@@ -73,8 +73,19 @@ a:active {
  color: black;
 }
 
+a:link {
+ -webkit-transition: all 0.4s ease-in-out;
+ -moz-transition: all 0.4s ease-in-out;
+ -ms-transition: all 0.4s ease-in-out;
+ -o-transition: all 0.4s ease-in-out;
+ transition: all 0.4s ease-in-out;
+}
 
-	/* main containers */
+	/* headings */
+
+.header-logo {
+ display: none;
+}
 
 header {
  text-align: center;
@@ -89,8 +100,8 @@ header img {
 }
 
 header h1 {
- color: #878787;
- font-size: 4.9em;
+ color: #6B6B6B;
+ font-size: 6em;
  font-weight: 300;
  line-height: 0.9;
  margin: 35px auto 0px auto;
@@ -100,6 +111,7 @@ header h1 {
 
 header h1 strong {
  color: #61b3ff;
+ font-weight: 400;
 }
 
 
@@ -150,14 +162,14 @@ h2 {
 .mainfooter {
  border-style: solid; 
  border-width: 46px 0px 0px; 
- -moz-border-image: url("../_img/blacklace.png") 46 1 0 0 repeat; 
- -webkit-border-image: url("../_img/blacklace.png") 46 1 0 0 repeat; 
- -o-border-image: url("../_img/blacklace.png") 46 1 0 0 repeat; 
- border-image: url("../_img/blacklace.png") 46 1 0 0 fill repeat;
+ -moz-border-image: url("../_img/whitelace.png") 46 1 0 0 repeat; 
+ -webkit-border-image: url("../_img/whitelace.png") 46 1 0 0 repeat; 
+ -o-border-image: url("../_img/whitelace.png") 46 1 0 0 repeat; 
+ border-image: url("../_img/whitelace.png") 46 1 0 0 fill repeat;
  background-clip: padding-box;
- background-color: black;
+ background-color: white;
  text-align: center;
- color: #ffffff;
+ color: white;
 /* height: 6em; */
  height: auto !important;
  position: relative;
@@ -208,14 +220,6 @@ h2 {
 /* hide mobile menu */
 #navi #toggle, #navi #hideMenu {
  display: none;
-}
-
-#navi ul li a {
- -webkit-transition: all 0.5s ease-in-out;
- -moz-transition: all 0.5s ease-in-out;
- -ms-transition: all 0.5s ease-in-out;
- -o-transition: all 0.5s ease-in-out;
- transition: all 0.5s ease-in-out;
 }
 
 #navi ul li a:link,
@@ -365,6 +369,18 @@ header h1 {
 
 /* mobile navigation */
 @media only screen and (max-width: 800px) {
+
+.header-logo {
+ display: inline;
+ display: inline-block;
+ height: 2.6em;
+ position: absolute;
+ top: 6px;
+ left: 10px;
+ padding: 0px;
+ margin: 0px;
+ z-index: 10;
+}
 
 #navi {
 width: 100%;

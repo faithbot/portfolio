@@ -102,6 +102,18 @@ header h1 strong {
  color: #61b3ff;
 }
 
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+header h1 strong {
+background: transparent;
+/* background: linear-gradient(#878787, #8FFFD8); */
+-webkit-background-clip: text !important;
+-webkit-text-fill-color: transparent;
+margin-bottom: 0;
+}
+}
+
+
 .content {
  background-color: rgba(255, 255, 255, 0.5);
  text-align: center;
@@ -181,7 +193,7 @@ h2 {
 }
 
 #navi ul {
- background-color: #404040;
+ background-color: white;
  margin: 0 auto;
  padding: 0;
 }
@@ -199,7 +211,6 @@ h2 {
 }
 
 #navi ul li a {
-/* fade in link background */
  -webkit-transition: all 0.5s ease-in-out;
  -moz-transition: all 0.5s ease-in-out;
  -ms-transition: all 0.5s ease-in-out;
@@ -212,7 +223,7 @@ h2 {
  font-weight: 300;
  font-size: 2em;
  text-decoration: none;
- color: white;
+ color: black;
  display:inline-block;
  width: 4.2em;
  padding: 8px 20px 15px 20px;
@@ -220,12 +231,8 @@ h2 {
 
 #navi ul li a:hover,
 #navi ul li a:active {
- font-size: 2em;
- text-decoration: none;
- color: #8FFFD8;
+ color: #8DC9FF;
  display:inline-block;
- width: 4em;
- padding: 0px 20px 10px 20px;
 }
 
 

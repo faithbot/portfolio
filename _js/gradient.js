@@ -1,7 +1,7 @@
 var colors = new Array(
   [199, 252, 228],
   [224, 192, 250],
- [180, 226, 250],
+  [180, 226, 250],
   [184, 182, 252],
   [250, 200, 245],
   [255, 230, 161]);
@@ -45,9 +45,9 @@ var color2 = "rgb("+r2+","+g2+","+b2+")";
   ({
   background: "-webkit-gradient(linear, left top, right top, from("+color1+"), to("+color2+"))"
   })
-  .css ({
-  background: "-moz-linear-gradient(left, "+color1+" 0%, "+color2+" 100%)"
-  });
+//  .css ({
+//  background: "-moz-linear-gradient(left, "+color1+" 0%, "+color2+" 100%)"
+//  });
   
   step += gradientSpeed;
   if ( step >= 1 )

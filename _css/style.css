@@ -44,6 +44,14 @@ html, body {
  height: 100%;
 }
 
+html { 
+  background: url(images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 body {
  background-color: #FAFAFA;
 }
@@ -112,6 +120,7 @@ header h1 {
 header h1 strong {
  color: #61b3ff;
  font-weight: 400;
+ background: transparent;
 }
 
 

@@ -63,7 +63,7 @@ html {
 }
 
 body {
- background-color: #FAFAFA;
+ background-color: #fAfAfA;
 }
 
 img {  
@@ -106,16 +106,9 @@ a:link {
 }
 
 header {
- background-color: white;
+ background-color: rgba(255, 255, 255, 0.6);
  text-align: center;
  width: 100%;
-}
-
-header img {
- width: auto;
- overflow: auto;
- margin: 10px auto 20px auto;
- padding: 0;
 }
 
 header h1 {
@@ -147,37 +140,23 @@ margin-bottom: 0;
 */
 
 .mini-desk {
- background-image: url("../_img/mini-desk.png");
+ background-image: url("../_img/desk-rustic.png");
  background-repeat: no-repeat;
  background-position: bottom center;
  background-attachment: fixed;
  background-size: cover;
-
  margin: 0;
- height: 300px;
+ min-height: 100%
 }
 
 
 
 .content {
- background-color: white !important;
+ background-color: none;
  text-align: center;
- width: 100%;
- margin: 50px auto 20px auto;
- padding: 10px 50px 40px 50px;
-}
-
-.fade-out {
-background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(0,0,0,0) 100%);
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(0,0,0,0)));
-background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(0,0,0,0) 100%);
-background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(0,0,0,0) 100%);
-background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(0,0,0,0) 100%);
-background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(0,0,0,0) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00000000',GradientType=0 );
-
-
- height: 10px;
+ width: 94%;
+ margin: 0px auto 20px auto;
+ padding: 0px 3% 0px 3%;
 }
 
 h2 {

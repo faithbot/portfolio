@@ -1,0 +1,42 @@
+
+Brand Colors:
+
+#6e5494 - Github Purple
+#0077b5 - LinkedIn Blue
+#dd4b39 - Google+ Red
+
+
+Site Colors:
+
+Main Colors
+#61b3ff - strong blue
+#6b6b6b - grey
+
+Accent Colors
+#ffe6a1 - Orange
+#c7fce4 - Turquois
+#e0c0fa - Lavender
+#b4e2fa - Light Blue
+#b8b6fc - Purple-Blue
+
+Font Stack:
+
+
+Table of contents:
+ Generic
+ General
+ General link styling
+ Main containers - in order of appearance
+ Media queries
+
+
+Order by: 
+ background
+ border 
+ font
+ height 
+ position
+ z-index
+ margin
+ padding
+

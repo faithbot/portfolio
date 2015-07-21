@@ -10,7 +10,8 @@ Site Colors:
 
 Main Colors
 #61b3ff - strong blue
-#6b6b6b - grey
+#6b6b6b - medium grey
+#61b3ff - dark grey
 
 Accent Colors
 #ffe6a1 - Orange

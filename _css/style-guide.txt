@@ -11,10 +11,11 @@ Site Colors:
 Main Colors
 #61b3ff - strong blue
 #6b6b6b - medium grey
-#61b3ff - dark grey
+#6b6b6b - dark grey
+#575757 - text grey (within color range accesability)
 
 Accent Colors
-#ffe6a1 - Orange
+#ffe6a1 - Orange         FFC729 - dark orange
 #c7fce4 - Turquois
 #e0c0fa - Lavender
 #b4e2fa - Light Blue
@@ -22,6 +23,9 @@ Accent Colors
 
 Font Stack:
 
+
+Troubleshooting ideas:
+*{ border: 1px solid red; }
 
 Table of contents:
  Generic

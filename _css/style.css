@@ -1,5 +1,4 @@
 
-
 	/* Generic */
 
 .bold {
@@ -28,15 +27,19 @@ html, body {
 }
 
 html { 
-  background: url(images/bg.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+ background-color: #fAfAfA;
+ background-image: url("../_img/desk-rustic.png");
+ background-repeat: no-repeat;
+ background-position: bottom center;
+ background-attachment: fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
 }
 
 body {
- background-color: #fAfAfA;
+
 }
 
 img {  
@@ -46,10 +49,6 @@ img {
  padding: 0;
  margin: 0;
 }
-
-/*article {
-margin: 30px 0px 40px 0px;
-}*/
 
 
 	/* general link styling */
@@ -94,30 +93,17 @@ header h1 {
  width: 90%;
 }
 
-header h1 strong {
- color: #61b3ff;
- font-weight: 400;
- background: transparent;
-}
-
 .mini-desk {
- background-image: url("../_img/desk-rustic.png");
- background-repeat: no-repeat;
- background-position: bottom center;
- background-attachment: fixed;
- background-size: cover;
- margin: 0;
- min-height: 100%
+
 }
-
-
 
 .content {
- background-color: none;
+ background-color: white;
  text-align: center;
+ color: #575757;
  width: 94%;
- margin: 0px auto 20px auto;
- padding: 0px 3% 0px 3%;
+ margin: 0px auto 500px auto;
+ padding: 30px 3% 35px 3%;
 }
 
 h2 {
@@ -143,37 +129,6 @@ h2 {
  height: 6em; /* same height as footer */
 }
 
-	/* footer */
-
-.mainfooter {
- border-style: solid; 
- border-width: 46px 0px 0px; 
- -moz-border-image: url("../_img/whitelace.png") 46 1 0 0 repeat; 
- -webkit-border-image: url("../_img/whitelace.png") 46 1 0 0 repeat; 
- -o-border-image: url("../_img/whitelace.png") 46 1 0 0 repeat; 
- border-image: url("../_img/whitelace.png") 46 1 0 0 fill repeat;
- background-clip: padding-box;
- background-color: white;
- text-align: center;
- color: white;
-/* height: 6em; */
- height: auto !important;
- position: relative;
- left:0;
- bottom:0;
- width: 100%;
-}
-
-.mainfooter a:link,
-.mainfooter a:visited {
- text-decoration: none;
- color: #6b6b6b;
-}
-
-.mainfooter a:hover,
-.mainfooter a:active {
- text-decoration: none;
-}
 
 
 	/* navigation */
@@ -220,12 +175,39 @@ h2 {
 
 #navi ul li a:hover,
 #navi ul li a:active {
- color: #8DC9FF;
+ color: #B46CFF;
  display:inline-block;
 }
 
 .gradient {
  height: 3px;
+}
+
+
+	/* footer */
+
+.mainfooter {
+ background-clip: padding-box;
+ background-color: white;
+ text-align: center;
+ color: white;
+/* height: 6em; */
+ height: auto !important;
+ position: relative;
+ left:0;
+ bottom:0;
+ width: 100%;
+}
+
+.mainfooter a:link,
+.mainfooter a:visited {
+ text-decoration: none;
+ color: #6b6b6b;
+}
+
+.mainfooter a:hover,
+.mainfooter a:active {
+ text-decoration: none;
 }
 
 	/* Icons */
